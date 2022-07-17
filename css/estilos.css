@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+header {   
+    height: 100px;
+    background-color: rgb(182, 92, 92);
+    color: aliceblue;
+}
+
+#modo{
+    width: 20px;
+    font-size: 30px;
+    margin: 0%;
+    cursor: pointer;
+    align-content: flex-start;
+}
+ 
+header h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+header h3 {
+    text-align: center;
+    font-family: 'Lobster', 'cursive';
+}
+
+
+
+#navbarNav a {
+    color:rgb(143, 27, 27); 
+    font-size: 0.60cm;
+}
+
+.carousel-inner {
+    flex-wrap: wrap;
+}
+
+.conteiner-fuid{
+    justify-content: end;
+}
+
+
+.flex {
+    display: flex;
+    flex-flow: wrap;
+    margin: 0%;
+}
+
+aside {
+    border: 2px, black;
+}
+.nosotros {
+    flex: 50px;
+    text-align: center;
+    margin: 1%;
+}
+
+.card{
+    text-align: center;
+}
+
+
+
+footer{
+    width: 100%;
+    padding: 10px 0px;
+    background-size: cover;
+   flex-direction: row;
+    
+    /*background-color: #d0f0f8;
+    -webkit-mask-image: url("../Images/background-footer.svg");
+    mask-image: url("../Images/background-footer.svg");
+    -webkit-mask-size: cover;
+    mask-size: cover;*/
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 10px;
+    color: #343434;
+    font-weight: 250;
+}
+
+.box__footer a{
+    margin-top: 1px;
+    color: #7a7a7a;
+    font-weight: 400;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 15px;
+}
+
+form {
+    flex-direction: column;
+    background: gainsboro;
+    padding: 10px 10px;
+    margin-top: 6px;
+    border-radius: 5px;
+   align-items: center;
+   justify-items: center;
+}
+
+
+form input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px;
+    flex-direction: column;
+    align-items: center;
+   justify-items: center;
+   margin: 15px;
+}
+
+form textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px;
+    flex-direction: column;
+    margin: 15px;
+}
+
+@media (max-width: 700px) {
+    .imagen{
+    display: none;
+    }
+}
+
+.dark{
+    background: rgb(4, 24, 27);
+}
+
+.dark h1{
+    color: white;
+}
+
+.dark header{
+    color: rgb(209, 208, 208);
+    background: black;
+}
+.dark #modo{
+    color: rgb(68, 139, 201);
+}
+.dark .card__perfil{
+    background: rgb(16, 43, 51);
+}
+.dark p{
+    color: rgb(211, 211, 211);
+}
+.dark h2{
+    color: white;
+}
+.dark .enlace{
+    background: rgb(13, 84, 117);
+}
+.dark .card__perfil:hover{
+    border: solid green 2px;
+}
+
+.dark form {
+    background: black;
+    color: white;
+}
+
+.dark .box__footer {
+    color: white;
+}
