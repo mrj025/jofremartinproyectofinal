@@ -66,18 +66,19 @@ footer{
     padding: 10px 0px;
     background-size: cover;
    flex-direction: row;
+}
+
+
     
     /*background-color: #d0f0f8;
     -webkit-mask-image: url("../Images/background-footer.svg");
     mask-image: url("../Images/background-footer.svg");
     -webkit-mask-size: cover;
     mask-size: cover;*/
-}
 
 .container__footer{
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
 
 }
 
@@ -156,6 +157,15 @@ form textarea{
 @media (max-width: 700px) {
     .imagen{
     display: none;
+    
+    }
+}
+
+@media (max-width: 600px) {
+    footer iframe{
+        display: flex;
+        flex-wrap: wrap;
+        width: 470px;
     }
 }
 
