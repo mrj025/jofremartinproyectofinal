@@ -188,7 +188,12 @@ form textarea{
     }
 }
 
-
+@media (max-width: 540px) {
+    #contactos{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
 
 
 .dark{
