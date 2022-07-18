@@ -192,6 +192,7 @@ form textarea{
     #contactos{
         justify-content: center;
         flex-wrap: wrap;
+        margin: 50px;
     }
 }
 
