@@ -183,11 +183,8 @@ form textarea{
 }
 
 @media (max-width: 540px) {
-    .box__footer {
-        width: 500px;
-        margin: 20px;
-        align-items: center;
-        justify-content: center;
+    footer iframe {
+        display: none;
     }
 }
 
