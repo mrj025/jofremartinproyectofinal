@@ -160,14 +160,14 @@ form textarea{
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 540px) {
     footer iframe{
         display: flex;
         flex-wrap: wrap;
         width: 430px;
     }
  }
- @media (max-width: 600px) {
+ @media (max-width: 540px) {
     footer .box__footer {
         align-content: center;
         justify-content: center;
