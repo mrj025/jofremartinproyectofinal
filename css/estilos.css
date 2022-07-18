@@ -183,13 +183,15 @@ form textarea{
 }
 
 @media (max-width: 540px) {
-    iframe {
+    .box__footer {
         width: 500px;
         margin: 20px;
         align-items: center;
         justify-content: center;
     }
 }
+
+
 
 
 .dark{
