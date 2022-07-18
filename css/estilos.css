@@ -157,7 +157,6 @@ form textarea{
 @media (max-width: 700px) {
     .imagen{
     display: none;
-    
     }
 }
 
@@ -165,15 +164,26 @@ form textarea{
     footer iframe{
         display: flex;
         flex-wrap: wrap;
-        width: 470px;
+        width: 430px;
+    }
+ }
+ @media (max-width: 600px) {
+    footer .box__footer {
+        align-content: center;
+        justify-content: center;
     }
 }
+
 
 .dark{
     background: rgb(4, 24, 27);
 }
 
 .dark h1{
+    color: white;
+}
+
+.dark h4{
     color: white;
 }
 
@@ -195,9 +205,6 @@ form textarea{
 }
 .dark .enlace{
     background: rgb(13, 84, 117);
-}
-.dark .card__perfil:hover{
-    border: solid green 2px;
 }
 
 .dark form {
