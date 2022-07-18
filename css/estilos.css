@@ -174,6 +174,23 @@ form textarea{
     }
 }
 
+@media (max-width: 540px) {
+    body {
+        align-content: center;
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 540px) {
+    iframe {
+        width: 500px;
+        margin: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
 .dark{
     background: rgb(4, 24, 27);
